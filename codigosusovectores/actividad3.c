@@ -19,7 +19,7 @@ int main() {
 
     //vector, valores aleatorios entre 10 y 20 
     for (i = Cero; i < TAMANO_VEC; i++) {
-        vector[i] = rand() % (dif + camb); // (20 - 10 + 1) = 11
+        vector[i] = rand() % dif + camb; // (20 - 10 + 1) = 11
     }
 
     printf("Vector: ");
