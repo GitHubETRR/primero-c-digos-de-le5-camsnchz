@@ -11,7 +11,7 @@ int main() {
     char cadena[MAXCADENA];
 
     printf("Ingrese un texto: ");
-    fgets(cadena, sizeof(cadena), stdin); 
+    fgets(cadena, sizeof(cadena), stdin); //fgets lee el texto, sizeof cant maxima caracteres, stdin desde teclado
 
     int largo = Dimension(cadena);
     int i = DimensionContandor(cadena);
